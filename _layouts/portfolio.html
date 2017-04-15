@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div id="portfolios">
+
+  <h2>Portfolios</h2>
+
+  <div class="_lists">
+
+    {% for post in site.posts %}
+      {% if post.categories contains 'Sites' %}
+        <div class="_item">
+          <figure>
+            <img src="{{ post.site_thumb }}" alt="{{ post.title }}">
+            <figcaption>
+              <h4 class="_title">
+                {{ post.title }}
+                <span class="_year">({{ post.site_year }})</span>
+              </h4>
+              <div class="_meta">
+                <span class="_author">{{ post.site_author }}</span>
+                &mdash;
+                <span class="_url">{{ post.site_url }}</span>
+              </div>
+              <div class="_description">
+                {{ post.content }}
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+  <p class="_count">Total {{ site.categories.Sites | size }} items.</p>
+
+</div>
