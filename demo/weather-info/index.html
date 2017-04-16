@@ -1,0 +1,114 @@
+<html class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css">
+  <link rel="stylesheet prefetch" href="http://websygen.github.io/owfont/css/owfont-regular.css">
+  <style>
+    body {
+      background: black;
+    }
+    body .container {
+      width: 1024px;
+      margin: 20px auto;
+      background: white;
+      padding: 50px 20px 30px;
+      color: #555;
+      position: relative;
+    }
+    body .container h1 {
+      text-align: right;
+    }
+    body .container .units {
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: #ccc;
+      padding: 2px 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="units">
+    <strong>Unit</strong>: <a class="to-c">C</a> | <a class="to-f">F</a>
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      <div class="weather-owf">
+        <i class="owf owf-5x owf-pull-left owf-800"></i>
+        <strong class="city">Semarang</strong><br>
+        Temp <span class="temp">81.068</span>°<span class="unit-code">F</span> <span class="weather-main">Clear</span> (<span class="weather-description">clear sky</span>)<br>
+        Min <span class="temp-min">81.068</span>°<span class="unit-code">F</span> Max <span class="temp-max">81.068</span>°<span class="unit-code">F</span>
+      </div>
+    </div>
+    <div class="medium-6 columns">
+      <h1>Weather Info</h1>
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>$(document).ready(function(){
+  var my = {
+    geo: {
+      url: 'http://freegeoip.net/json/'
+    },
+    weather: {
+      url: 'http://api.openweathermap.org/data/2.5/weather',
+      c: {}, f: {}
+    }
+  };
+  $.getJSON('http://freegeoip.net/json/',function(json){
+    // console.log(json);
+    $.getJSON( my.weather.url+
+              '?lat='+json.latitude+
+              '&lon='+json.longitude+
+              '&appid=ae48d17470e7c9ffaabcbaa4defba720&units=metric', function(json2){
+      my.weather.c.temp = json2.main.temp;
+      my.weather.c.temp_min = json2.main.temp_min;
+      my.weather.c.temp_max = json2.main.temp_max;
+      my.weather.f.temp = c2f(json2.main.temp);
+      my.weather.f.temp_min = c2f(json2.main.temp_min);
+      my.weather.f.temp_max = c2f(json2.main.temp_max);
+
+      // console.log(my);
+
+      $('.weather-owf i.owf').addClass('owf-'+json2.weather[0].id);
+      $('.weather-owf .weather-main').html(json2.weather[0].main);
+      $('.weather-owf .weather-description').html(json2.weather[0].description);
+      $('.weather-owf .city').html(json2.name);
+
+      // default C
+      $('.weather-owf .temp').html(my.weather.c.temp);
+      $('.weather-owf .temp-min').html(my.weather.c.temp_min);
+      $('.weather-owf .temp-max').html(my.weather.c.temp_max);
+    });
+  });
+
+  $('.units .to-c').click(function(){
+    updateTemp(my.weather.c,'C');
+  });
+
+  $('.units .to-f').click(function(){
+    updateTemp(my.weather.f,'F');
+  });
+
+  function updateTemp(temp,unit){
+    $('.temp').html(temp.temp);
+    $('.temp-min').html(temp.temp_min);
+    $('.temp-max').html(temp.temp_max);
+    $('.unit-code').html(unit)
+  }
+
+  function c2f(temp){
+    return (temp*9/5)+32;
+  }
+  function f2c(temp){
+    return (temp-32)*5/9;
+  }
+
+});
+//# sourceURL=pen.js
+</script>
+</body></html>

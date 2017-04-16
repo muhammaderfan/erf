@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="demos">
+
+  <h2>Demos</h2>
+
+  <div class="_lists">
+
+    {% for post in site.posts %}
+      {% if post.categories contains 'Pages' %}
+        <div class="_item">
+          <h4 class="_title">
+            <a href="{{ post.demo_url }}">
+              {{ post.title }}
+            </a>
+          </h4>
+          <div class="_meta">{{ post.date }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div>
