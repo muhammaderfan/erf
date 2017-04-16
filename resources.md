@@ -37,12 +37,12 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Hnadlebar](http://handlebarsjs.com/) - HTML templating
 
 **PHP**
-- [Laravel](laravel.com)
+- [Laravel](https://laravel.com/)
 
 ### Server
 
 **Manage**
-- [Webuzo](www.webuzo.com) - Kelola beberapa web dalam server
+- [Webuzo](http://www.webuzo.com) - Kelola beberapa web dalam server
 
 **Monitor**
 - [Monit](https://mmonit.com/monit) - Monitoring (dan beberapa aksi lainnya) service yang berjalan pada server
@@ -51,7 +51,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 ### Utilities
 
 **Design**
-- [Proto io](proto.io) - prototyping web dan mobile ui
+- [Proto io](https://proto.io/) - prototyping web dan mobile ui
 - [Sketch](https://www.sketchapp.com) - mockup UI (licensed)
 - [Origami](http://origami.design) - mockup UI (free by facebook)
 - [Flinto](https://www.flinto.com) - prototyping and animating
@@ -76,7 +76,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Copyscape](http://www.copyscape.com/compare.php) - check similaritas suatu teks
 
 **Analytics**
-- [Google Analytics](analytics.google.com) - whole site monitoring & analysis
+- [Google Analytics](https://analytics.google.com) - whole site monitoring & analysis
 - [AddThis](https://www.addthis.com) - social sharing
 
 **Repositories**
@@ -99,6 +99,6 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Free Code School](https://www.freecodecamp.com/)
 
 **Magz and Info**
-- [Codepolitan](codepolitan.com)
-- [Tech in Asia](techinasia.com)
+- [Codepolitan](https://www.codepolitan.com)
+- [Tech in Asia](https://www.techinasia.com)
 - [Product Hunt](https://www.producthunt.com)
