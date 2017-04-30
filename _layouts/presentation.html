@@ -8,18 +8,16 @@ layout: default
 
   <div class="_lists">
 
-    {% for post in site.posts %}
-      {% if post.categories contains 'Slides' %}
-        <div class="_item">
-          <h4 class="_title">
-            <a href="{{ post.slide_url }}">
-              {{ post.title }}
-            </a>
-          </h4>
-          <div class="_meta">{{ post.date }}</div>
-          <div class="_description">{{ post.description }}</div>
-        </div>
-      {% endif %}
+    {% for slide in site.presentations %}
+      <div class="_item">
+        <h4 class="_title">
+          <a href="{{ slide.slide_url }}">
+            {{ slide.title }}
+          </a>
+        </h4>
+        <div class="_meta">{{ slide.date | date: "%b %-d, %Y" }}</div>
+        <div class="_description">{{ slide.description }}</div>
+      </div>
     {% endfor %}
 
   </div>

@@ -1,0 +1,81 @@
+<html class="">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <style class="">
+    .container .form-search {
+      margin: 32px 0;
+    }
+    .container .form-search .search-results {
+      margin: 32px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="form-search">
+    <div class="row">
+
+      <div class="col-md-8 col-lg-4 col-lg-offset-4 col-md-offset-2 text-center">
+        <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here</a> for a random article.
+        <br><br>
+        <div class="input-group">
+          <input id="query" type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" aria-label="Search">
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+          </span>
+        </div>
+
+      </div>
+
+      <div class="col-xs-12">
+
+        <div class="search-results">
+
+          <div class="media">
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              ...
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.form-search button').on('click',function(){
+
+      var title = $('#query').val();
+      var api = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=';
+      var cb = '&callback=JSON_CALLBACK';
+      var page = 'https://en.wikipedia.org/?curid=';
+
+      var url = api+title+cb;
+
+      $.ajax({
+        type: "GET",
+        dataType: "jsonp",
+        cache: false,
+        url: url,
+        success: function(data){
+          console.log(data);
+        },
+        error: function(e){
+          console.log(e);
+        }
+      });
+
+    });
+
+  });
+</script>
+</body>
+</html>

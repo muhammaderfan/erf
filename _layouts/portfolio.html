@@ -8,28 +8,27 @@ layout: default
 
   <div class="_lists">
 
-    {% for post in site.posts %}
-      {% if post.categories contains 'Sites' %}
-        <div class="_item">
-          <figure>
-            <img src="{{ post.site_thumb }}" alt="{{ post.title }}">
-            <figcaption>
-              <h4 class="_title">
-                {{ post.title }}
-                <span class="_year">({{ post.site_year }})</span>
-              </h4>
-              <div class="_meta">
-                <span class="_author">{{ post.site_author }}</span>
-                &mdash;
-                <span class="_url">{{ post.site_url }}</span>
-              </div>
-              <div class="_description">
-                {{ post.content }}
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-      {% endif %}
+    {% assign sorted = site.portfolios | sort: 'site_year' %}
+    {% for site in sorted reversed %}
+      <div class="_item">
+        <figure>
+          <img src="{{ site.site_thumb }}" alt="{{ site.title }}">
+          <figcaption>
+            <h4 class="_title">
+              {{ site.title }}
+              <span class="_year">({{ site.site_year }})</span>
+            </h4>
+            <div class="_meta">
+              <span class="_author">{{ site.site_author }}</span>
+              &mdash;
+              <span class="_url">{{ site.site_url }}</span>
+            </div>
+            <div class="_description">
+              {{ site.content }}
+            </div>
+          </figcaption>
+        </figure>
+      </div>
     {% endfor %}
 
   </div>

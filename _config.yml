@@ -1,6 +1,11 @@
 title: Ahmad Zafrullah
 description: GitHub hosted projects.
 
-google_analytics:
+google_analytics: UA-37265565-24
 
 repo_url: https://github.com/23Pstars/23Pstars.github.io
+
+collections:
+- presentations
+- demos
+- portfolios
