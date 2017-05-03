@@ -8,7 +8,8 @@ layout: default
 
   <div class="_lists">
 
-    {% for demo in site.demos %}
+    {% assign sorted = site.demos | sort: 'date' %}
+    {% for demo in sorted reversed %}
       <div class="_item">
         <h4 class="_title">
           <a href="{{ demo.demo_url }}">
