@@ -9,10 +9,22 @@
     .container .form-search .search-results {
       margin: 32px 0;
     }
+    #target .media {
+      border: thin solid #eee;
+      padding: 8px;
+      border-radius: 3px;
+      transition: background-color 250ms linear;
+    }
+    #target .media:hover {
+      background: rgba(238, 238, 238, 0.5);
+    }
   </style>
 </head>
 <body>
 <div class="container">
+
+  <h1 class="text-center">Wikipedia Viewer</h1>
+
   <div class="form-search">
     <div class="row">
 
@@ -20,10 +32,10 @@
         <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here</a> for a random article.
         <br><br>
         <div class="input-group">
-          <input id="query" type="text" class="form-control" placeholder="Search for...">
+          <input id="query" type="text" class="form-control" placeholder="Keywords...">
           <span class="input-group-btn">
             <button type="button" class="btn btn-default" aria-label="Search">
-              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Search
             </button>
           </span>
         </div>
@@ -34,12 +46,27 @@
 
         <div class="search-results">
 
-          <div class="media">
-            <div class="media-body">
-              <h4 class="media-heading">Media heading</h4>
-              ...
-            </div>
-          </div>
+          <div id="target"></div>
+
+          <script id="template" type="x-tmpl-mustache">
+            {{#pages}}
+              <div class="media">
+                {{#thumbnail.source}}
+                <div class="media-left">
+                  <img class="media-object" src="{{thumbnail.source}}" alt="{{title}}">
+                </div>
+                {{/thumbnail.source}}
+                <div class="media-body">
+                  <h4 class="media-heading">
+                    <a target="_blank" href="https://en.wikipedia.org/?curid={{pageid}}">
+                      {{title}}
+                    </a>
+                  </h4>
+                  {{extract}}
+                </div>
+              </div>
+            {{/pages}}
+          </script>
 
         </div>
 
@@ -49,24 +76,30 @@
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
 <script>
   $(document).ready(function(){
     $('.form-search button').on('click',function(){
 
       var title = $('#query').val();
-      var api = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=';
+      var api = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=50&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=';
       var cb = '&callback=JSON_CALLBACK';
-      var page = 'https://en.wikipedia.org/?curid=';
-
-      var url = api+title+cb;
 
       $.ajax({
         type: "GET",
         dataType: "jsonp",
         cache: false,
-        url: url,
+        url: api + title + cb,
         success: function(data){
-          console.log(data);
+          var pages = Object.keys(data.query.pages).map(function( key ){
+            return data.query.pages[ key ];
+          });
+          // console.log({'pages': pages});
+          var template = $('#template').html();
+          Mustache.parse(template);
+          var rendered = Mustache.render(template, {'pages': pages});
+          // console.log(rendered);
+          $('#target').html(rendered);
         },
         error: function(e){
           console.log(e);
@@ -74,7 +107,6 @@
       });
 
     });
-
   });
 </script>
 </body>
