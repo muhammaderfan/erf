@@ -61,6 +61,8 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 
 **Management**
 - [Trello](https://trello.com) - Task management system
+- [Google Keep](https://keep.google.com/) - Checklist harian
+- [Google Calendar](https://www.google.com/calendar) - Task and time management
 - [Google Docs](https://www.google.com/intl/en-GB/docs/about/) - Kolaborasi edit dokumen
 - [Google Sheet](https://www.google.com/intl/en-GB/sheets/about/) - - Kolaborasi edit sheet
 - [Google Slide](https://www.google.com/intl/en-GB/slides/about/) - Buat presentasi online
