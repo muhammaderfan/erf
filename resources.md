@@ -32,6 +32,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Datamaps](http://datamaps.github.io/) - Display MAP api
 - [Chart.js](http://www.chartjs.org/) - Display chart
 - [Quill](http://quilljs.com/) - WYSIWYG editor
+- [Pell](https://jaredreich.com/pell) - Smallest WYSIWYG editor
 
 **Template**
 - [Hnadlebar](http://handlebarsjs.com/) - HTML templating
