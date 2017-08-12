@@ -7,7 +7,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 
 ### Stuff
 
-- [Laptop](https://zaf.web.id/blog/yes-my-first-apple-macbook-pro/)
+- [Laptop](https://zaf.web.id/blog/review-apple-macbook-pro/)
 - [Tablet](https://zaf.web.id/blog/review-apple-ipad-pro/)
 - [Mouse](https://zaf.web.id/blog/review-apple-mouse-magic/)
 - [Pencil](https://zaf.web.id/blog/review-apple-pencil/)
@@ -39,6 +39,10 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 
 **PHP**
 - [Laravel](https://laravel.com/)
+
+**Build**
+- [Jekyll](https://jekyllrb.com/) - Serve static file
+- [Gulp](https://gulpjs.com/) - Build asset web
 
 ### Server
 
