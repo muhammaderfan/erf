@@ -14,7 +14,16 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 
 ### Framework
 
+**PHP**
+- [LRS Engine](https://zaf.web.id/blog/lrsoft/lrs-engine/) - Engine yang dikembangkan oleh tim [LRsoft](https://lrsoft.co.id)
+- [WordPress](https://w.org/) - mesin blogging paling popular
+
+**React**
+- [ReactJS](https://reactjs.org/)
+- [Material UI](http://www.material-ui.com/) - component styling material
+
 **CSS**
+- [Zurb Foundation](https://foundation.zurb.com) - cocok untuk dashboard layouting
 - [Semantic-UI](http://semantic-ui.com/) - Full feature css framework
 - [Bootstrap](http://getbootstrap.com/) - Mainstream css framework
 - [Mobi.css](http://getmobicss.com/) - CSS framework yang fokus ke mobile
@@ -33,16 +42,19 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Chart.js](http://www.chartjs.org/) - Display chart
 - [Quill](http://quilljs.com/) - WYSIWYG editor
 - [Pell](https://jaredreich.com/pell) - Smallest WYSIWYG editor
-
-**Template**
-- [Hnadlebar](http://handlebarsjs.com/) - HTML templating
-
-**PHP**
-- [Laravel](https://laravel.com/)
+- [Handlebar](http://handlebarsjs.com/) - HTML templating
 
 **Build**
 - [Jekyll](https://jekyllrb.com/) - Serve static file
 - [Gulp](https://gulpjs.com/) - Build asset web
+
+### Local
+
+**Node**
+- [tldr](https://github.com/tldr-pages/tldr) - saat membaca `man pages` membosankan
+
+**Terminal**
+- [zsh](http://www.zsh.org/) - alternatif untuk bash karena memiliki banyak plugin keren
 
 ### Server
 
@@ -62,7 +74,12 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Flinto](https://www.flinto.com) - prototyping and animating
 
 **Development**
-- [MQtest.io](http://mqtest.io/) - Test ukuran layar browser
+- [PhpStorm](https://www.jetbrains.com/phpstorm/) - IDE untuk PHP
+- [CLion](https://www.jetbrains.com/clion/) - IDE untuk C
+- [PyCharm](https://www.jetbrains.com/pycharm) - IDE untuk Python
+- [WebStorm](https://www.jetbrains.com/webstorm) - IDE untuk frontend
+- [Android Studio](https://developer.android.com/studio/index.html) - IDE untuk android
+- [Visual Studio Code](https://code.visualstudio.com/) - general text editor
 
 **Management**
 - [Trello](https://trello.com) - Task management system
@@ -74,10 +91,11 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Read the Docs](https://readthedocs.org) - Dokumentasi online
 
 **Communication**
+- [WhatsApp](https://www.whatsapp.com/) - chat sehari-hari
 - [Google Hangout](https://hangouts.google.com/) - Chat untuk kerjaan
 - [Slack](https://slack.com) - Chat untuk kerja dengan beberapa fitur tambahan
 
-**Tests**
+**Web Analysis**
 - [Sucuri Check](https://sitecheck.sucuri.net/) - Check vulnerabilitas website online
 - [Have I Been Pwned](https://haveibeenpwned.com/) - Check suatu akun apakah pernah kena hack
 - [Copyscape](http://www.copyscape.com/compare.php) - check similaritas suatu teks
@@ -91,8 +109,15 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Bitbucket](https://bitbucket.org) - free private untuk 5 users (1 grup), free untuk pubik
 - [GitLab](https://gitlab.com) - unlimited private and public
 
-**Others**
-- [octotree](https://github.com/buunguyen/octotree) - chrome extension untuk memudahkan review github source
+**Chrome Extension**
+- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) - chrome extension untuk memudahkan review github source
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg) - discover teknologi yang digunakan oleh sebuah web
+- [Corporate Lorem Ipsum](https://chrome.google.com/webstore/detail/corporate-ipsum/lfmadckmfehehmdnmhaebniooenedcbb?hl=en) - generate "lorem ipsum..." jadi lebih mudah
+- [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en) - quick translate
+- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en) - cek kalimat bahasa inggris
+- [LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl=en) - password manager
+- [Oncrawl SEO](https://chrome.google.com/webstore/detail/oncrawl-seo-page-audit/ngcfjikphejojdjnmiegbcjhemldbjhp?hl=en) - cek struktur SEO halaman web
+- [Trello](https://chrome.google.com/webstore/detail/trello/dmdidbedhnbabookbkpkgomahnocimke?hl=en) - quick access board di trello
 
 ### Learning
 
@@ -109,3 +134,5 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Codepolitan](https://www.codepolitan.com)
 - [Tech in Asia](https://www.techinasia.com)
 - [Product Hunt](https://www.producthunt.com)
+
+*Last updated on Mar 24, 2018*
