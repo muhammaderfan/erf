@@ -65,6 +65,9 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Monit](https://mmonit.com/monit) - Monitoring (dan beberapa aksi lainnya) service yang berjalan pada server
 - [BitNinja](https://bitninja.io) - Monitor dan amankan server dari beberapa jenis serangan
 
+**Tool**
+- [NCurses Disk Usage](https://dev.yorhel.nl/ncdu) - Mapping disk usage via CLI
+
 ### Utilities
 
 **Design**
@@ -80,6 +83,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [WebStorm](https://www.jetbrains.com/webstorm) - IDE untuk frontend
 - [Android Studio](https://developer.android.com/studio/index.html) - IDE untuk android
 - [Visual Studio Code](https://code.visualstudio.com/) - general text editor
+- [Nano](https://www.nano-editor.org/) - CLI based editor
 
 **Management**
 - [Trello](https://trello.com) - Task management system
@@ -92,6 +96,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 
 **Communication**
 - [WhatsApp](https://www.whatsapp.com/) - chat sehari-hari
+- [Telegram](https://web.telegram.org) - chat untuk keperluan komunitas
 - [Google Hangout](https://hangouts.google.com/) - Chat untuk kerjaan
 - [Slack](https://slack.com) - Chat untuk kerja dengan beberapa fitur tambahan
 
