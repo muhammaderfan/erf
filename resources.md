@@ -59,6 +59,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 ### Server
 
 **Manage**
+- [CentOS Web Panel](http://centos-webpanel.com) - Kelola multi akun web di CentOS
 - [Webuzo](http://www.webuzo.com) - Kelola beberapa web dalam server
 
 **Monitor**
@@ -140,4 +141,4 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Tech in Asia](https://www.techinasia.com)
 - [Product Hunt](https://www.producthunt.com)
 
-*Last updated on Mar 24, 2018*
+*Last updated on Sep 25, 2018*
