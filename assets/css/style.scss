@@ -13,16 +13,84 @@
   padding-top: 10px;
 }
 
-#presentations, #demos {
+#presentations, #demos, #lectures {
   ._lists {
     ._item {
       ._title {
         margin-bottom: 0;
       }
+
       ._meta {
         font-size: 10px;
         color: #777;
         font-style: italic;
+      }
+    }
+  }
+}
+
+#lectures {
+
+  ._lists {
+    ._item {
+      margin-bottom: 23px;
+
+      &:hover {
+        .mk_id {
+          display: inline !important;
+        }
+      }
+
+      ._title {
+        .mk_id {
+          display: none;
+        }
+      }
+
+      ._content {
+        margin-top: 8px;
+      }
+    }
+  }
+
+  table {
+    width: 100%;
+    border: none;
+    margin-top: 32px;
+
+    td {
+
+      padding: 0;
+      vertical-align: top;
+      border: none;
+
+      &.left {
+        width: 65%;
+      }
+
+      &.right {
+        width: 35%;
+        text-align: right;
+      }
+
+      p {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 4px;
+
+        &.name {
+          font-weight: bold;
+        }
+
+        i {
+          padding-right: 6px;
+        }
+      }
+
+      img {
+        padding: 0;
+        margin: 0;
+        max-width: 150px;
       }
     }
   }
@@ -35,25 +103,32 @@
     font-size: 14px;
     font-weight: bold;
   }
+
   ._lists {
     display: flex;
     flex-wrap: wrap;
+
     ._item {
       font-size: 12px;
+
       ._title {
         font-size: 18px;
         margin: 16px 0 8px;
       }
+
       ._meta {
         color: #333;
+
         ._author {
 
         }
+
         ._url {
           color: #3F51B5;
           font-style: italic;
         }
       }
+
       ._description {
         color: #777;
       }
@@ -73,9 +148,11 @@
       figure {
         margin: 0;
         overflow: hidden;
+
         figcaption {
           margin-top: 8px;
         }
+
         img {
           border: none;
           max-width: 100%;

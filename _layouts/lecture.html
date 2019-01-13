@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div id="lectures">
+
+    <h2>Lectures</h2>
+
+    <table>
+        <tbody>
+        <tr>
+            <td class="left">
+                <p class="name">
+                    <i class="icon-vcard"></i> {{ page.me_name }}
+                </p>
+                <p class="whatsapp">
+                    <i class="icon-whatsapp"></i>
+                    <a href="https://wa.me/{{ page.me_whatsapp }}" target="_blank">{{ page.me_whatsapp }}</a>
+                </p>
+                <p class="mail">
+                    <i class="icon-mail"></i>
+                    <a href="mailto:{{ page.me_email }}" target="_blank">{{ page.me_email }}</a>
+                </p>
+                <p class="url">
+                    <i class="icon-link"></i>
+                    <a href="{{ page.me_web }}" target="_blank">{{ page.me_web }}</a>
+                </p>
+            </td>
+            <td class="right">
+                <img src="{{ page.me_qr }}" alt="{{ page.me_name }}"/>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="_lists">
+
+        {% assign sorted = site.lectures | sort: 'tahun_akademik' %}
+        {% for mk in sorted reversed %}
+        {% assign mk_id = mk.tahun_akademik | append: '-' | append: mk.judul | slugify %}
+        <div class="_item" id="{{ mk_id }}">
+            <h4 class="_title">
+                {{ mk.judul }}
+                <a class="mk_id" href="#{{ mk_id }}">
+                    <i class="icon-hash"></i>
+                </a>
+            </h4>
+            <div class="_meta">
+                {{ mk.tahun_akademik2 }}
+                {% if mk.kontrak_kuliah %}
+                &nbsp;&nbsp;&mdash;&nbsp;
+                <a href="{{ mk.kontrak_kuliah }}" target="_blank">
+                    Kontrak Kuliah
+                </a>
+                {% endif %}
+            </div>
+            <div class="_content">
+                {{ mk.content }}
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+
+</div>
