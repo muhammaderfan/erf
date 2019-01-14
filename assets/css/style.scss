@@ -94,6 +94,7 @@
       }
     }
   }
+
 }
 
 #portfolios {
@@ -164,4 +165,34 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 480px) {
+
+  .inner {
+    min-width: auto;
+  }
+
+  #lectures {
+    table {
+      td {
+        &.left {
+          width: 100%;
+        }
+
+        &.right {
+          width: 0;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
 }
