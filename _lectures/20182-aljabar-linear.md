@@ -8,8 +8,9 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/163ifOlizSzI4gSYhPOcVKIG
 1. [Matriks dan Operasinya](https://docs.google.com/presentation/d/18fN_25Y_BZwPOsodvYQyJqvmaYywDud_RC7cLbyVHzk/edit?usp=sharing)
 2. [Determinan Matriks](https://docs.google.com/presentation/d/15CzI1TyI7YoK5JboHKmJbjGFpVFzHBnp313ZQMSTQP0/edit?usp=sharing)
 3. [Sistem Persamaan Linear](https://docs.google.com/presentation/d/1WBnnAbSiCpK9RmIB0hEJWzLMsDtfdVOn86rHg8-hvfg/edit?usp=sharing)
-4. Vektor Bidang dan Ruang
-5. Ruang Vektor
-6. Ruang Hasil Kali Dalam
-7. Transformasi Linear
-8. Ruang Eigen
+4. Quiz ([A](https://forms.gle/HZw5aSmZKcomDngx6)/[B](https://forms.gle/ttgJ6ah4hivPTySn9)/[C](https://forms.gle/LqX2FNks5r3g1iz79))
+5. Vektor Bidang dan Ruang
+6. Ruang Vektor
+7. Ruang Hasil Kali Dalam
+8. Transformasi Linear
+9. Ruang Eigen
