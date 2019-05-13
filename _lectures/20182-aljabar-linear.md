@@ -10,7 +10,8 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/163ifOlizSzI4gSYhPOcVKIG
 3. [Sistem Persamaan Linear](https://docs.google.com/presentation/d/1WBnnAbSiCpK9RmIB0hEJWzLMsDtfdVOn86rHg8-hvfg/edit?usp=sharing)
 4. Quiz ([A](https://forms.gle/HZw5aSmZKcomDngx6)/[B](https://forms.gle/ttgJ6ah4hivPTySn9)/[C](https://forms.gle/LqX2FNks5r3g1iz79))
 5. [Vektor Bidang dan Ruang](https://docs.google.com/presentation/d/1bFC5HqmkRATr-a6UuSLK-oT82J_PNIUsLF_mOH__TNo/edit?usp=sharing)
-6. Ruang Vektor
-7. Ruang Hasil Kali Dalam
-8. Transformasi Linear
-9. Ruang Eigen
+6. [Latihan](https://docs.google.com/presentation/d/1UwYlTHCoZCgBbc1iH9PeesrLZRxIvS59dA5x78wyToc/edit?usp=sharing)
+7. Ruang Vektor
+8. Ruang Hasil Kali Dalam
+9. Transformasi Linear
+10. Ruang Eigen
