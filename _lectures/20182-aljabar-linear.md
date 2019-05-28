@@ -12,6 +12,7 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/163ifOlizSzI4gSYhPOcVKIG
 5. [Vektor Bidang dan Ruang](https://docs.google.com/presentation/d/1bFC5HqmkRATr-a6UuSLK-oT82J_PNIUsLF_mOH__TNo/edit?usp=sharing)
 6. [Latihan](https://docs.google.com/presentation/d/1UwYlTHCoZCgBbc1iH9PeesrLZRxIvS59dA5x78wyToc/edit?usp=sharing)
 7. [Ruang Vektor](https://docs.google.com/presentation/d/1ucbrinBrYWQdMf2EFvMiQksf3xUfkSlaaQgyN_ioQvA/edit?usp=sharing)
-8. Ruang Hasil Kali Dalam
-9. Transformasi Linear
-10. Ruang Eigen
+8. Quiz ([A](https://forms.gle/evEYEAA863EgCMjk6)/[B](#)/[C](#))
+9. [Ruang Hasil Kali Dalam](https://docs.google.com/presentation/d/1HVs6SVcJjvdVntzvHb_erR2oLJHRnY73b9Afw7LkQ4E/edit?usp=sharing)
+10. Transformasi Linear
+11. Ruang Eigen
