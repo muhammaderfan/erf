@@ -13,6 +13,6 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/163ifOlizSzI4gSYhPOcVKIG
 6. [Latihan](https://docs.google.com/presentation/d/1UwYlTHCoZCgBbc1iH9PeesrLZRxIvS59dA5x78wyToc/edit?usp=sharing)
 7. [Ruang Vektor](https://docs.google.com/presentation/d/1ucbrinBrYWQdMf2EFvMiQksf3xUfkSlaaQgyN_ioQvA/edit?usp=sharing)
 8. Quiz ([A](https://forms.gle/evEYEAA863EgCMjk6)/[B](https://forms.gle/xhGY4fynXXRzHmKv9)/[C](https://forms.gle/6zNxqq4ghsTv7KoXA))
-9. [Ruang Hasil Kali Dalam](https://docs.google.com/presentation/d/1HVs6SVcJjvdVntzvHb_erR2oLJHRnY73b9Afw7LkQ4E/edit?usp=sharing)
-10. Transformasi Linear
+9. ~~[Ruang Hasil Kali Dalam](https://docs.google.com/presentation/d/1HVs6SVcJjvdVntzvHb_erR2oLJHRnY73b9Afw7LkQ4E/edit?usp=sharing)~~
+10. [Transformasi Linear](https://docs.google.com/presentation/d/1eLpt_-5ysdZoj57i9sCUCut0h8HfdpeLw4ZtlE_T4Vk/edit?usp=sharing)
 11. Ruang Eigen
