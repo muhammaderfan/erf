@@ -15,4 +15,4 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/163ifOlizSzI4gSYhPOcVKIG
 8. Quiz ([A](https://forms.gle/evEYEAA863EgCMjk6)/[B](https://forms.gle/xhGY4fynXXRzHmKv9)/[C](https://forms.gle/6zNxqq4ghsTv7KoXA))
 9. ~~[Ruang Hasil Kali Dalam](https://docs.google.com/presentation/d/1HVs6SVcJjvdVntzvHb_erR2oLJHRnY73b9Afw7LkQ4E/edit?usp=sharing)~~
 10. [Transformasi Linear](https://docs.google.com/presentation/d/1eLpt_-5ysdZoj57i9sCUCut0h8HfdpeLw4ZtlE_T4Vk/edit?usp=sharing)
-11. Ruang Eigen
+11. ~~[Ruang Eigen](https://docs.google.com/presentation/d/1_idCIAsznpjExzRDU8MylHXmIZBF1CuYZ90cDcXv5nc/edit?usp=sharing)~~
