@@ -1,0 +1,101 @@
+* {
+  font-family: Quicksand, sans-serif !important;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.topbar {
+  text-align: center;
+  padding: 8px 0;
+  background: #5377e6;
+  color: #eee;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  background: #303030;
+  color: #eee;
+  padding: 64px 0;
+}
+
+.header .photo img {
+  border-radius: 50%;
+}
+
+.header .name {
+  padding: 16px 0 8px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header .title {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.container {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 0;
+  color: #333;
+}
+
+.container .half,
+.container .center {
+  margin-top: 24px;
+}
+
+.container .half {
+  float: left;
+  max-width: 374px;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.container .half ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container .half ul li {
+  padding: 8px 0;
+  border-bottom: thin solid #ddd;
+}
+
+.container .half ul li span {
+  font-weight: bold;
+}
+
+.container .center {
+  text-align: center;
+}
+
+.container .center ul {
+  padding: 0;
+}
+
+.container .center ul li {
+  display: inline;
+  padding: 0 8px;
+}
+
+.container .center ul li a {
+    display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
