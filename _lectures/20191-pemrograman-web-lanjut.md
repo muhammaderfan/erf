@@ -7,13 +7,15 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/1RwbuoW1gtqlLx-n43ApAeUy
 
 1. [Modern Vs. Traditional Web](https://docs.google.com/presentation/d/1-yjrlI8Js-K-YFRjW8z8cY5vq5afcLu9yd2USd_Zl4I/edit?usp=sharing)
 2. Modern Web Development Tools (team)
-3. Introduction to ECMAScript (project)
-4. Create React App
-5. React Material UI (1)
-6. React Material UI (2)
-7. React Material UI (3)
-8. Project Team Progress (1)
-9. Project Team Progress (2)
-10. Project Team Progress (3)
-11. Deployment
-12. Marketing
+3. -tbd- (project)
+4. -tbd-
+5. -tbd-
+6. -tbd-
+7. -tbd-
+8. -tbd-
+9. -tbd-
+10. -tbd-
+11. -tbd-
+12. -tbd-
+13. -tbd-
+14. -tbd-
