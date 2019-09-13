@@ -8,8 +8,9 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/1RwbuoW1gtqlLx-n43ApAeUy
 1. [Modern Vs. Traditional Web](https://docs.google.com/presentation/d/1-yjrlI8Js-K-YFRjW8z8cY5vq5afcLu9yd2USd_Zl4I/edit?usp=sharing)
 2. [Modern Web Development Tools](https://docs.google.com/presentation/d/1tqNRpnyD98EOg_Ufxhwl0GKfKs2g9kBFpr-w6PDLBYU/edit?usp=sharing) (team)
 3. Introduction to React (project)
-4. Fetching Data
-5. Code Organization
-6. Components
-7. State Management
-8. Firebase Services
+4. React Basics
+5. Fetching Data
+6. Code Organization
+7. Components
+8. State Management
+9. Firebase Services
