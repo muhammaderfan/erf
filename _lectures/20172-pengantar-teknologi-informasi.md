@@ -1,6 +1,6 @@
 ---
 judul: "Pengantar Teknologi Informasi (A)"
-tahun_akademik: 20172"
+tahun_akademik: "20172"
 tahun_akademik2: "2017 Genap"
 ---
 

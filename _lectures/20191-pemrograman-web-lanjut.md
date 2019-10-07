@@ -1,6 +1,6 @@
 ---
 judul: "Pemrograman Web Lanjut"
-tahun_akademik: 20191"
+tahun_akademik: "20191"
 tahun_akademik2: "2019 Ganjil"
 kontrak_kuliah: "https://docs.google.com/presentation/d/1RwbuoW1gtqlLx-n43ApAeUy8OCGKqiNbe7XH5cCVfuo/edit?usp=sharing"
 ---

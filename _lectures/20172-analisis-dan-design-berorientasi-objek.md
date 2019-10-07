@@ -1,6 +1,6 @@
 ---
 judul: "Analisis dan Perancangan Berorientasi Objek (C)"
-tahun_akademik: 20172"
+tahun_akademik: "20172"
 tahun_akademik2: "2017 Genap"
 ---
 

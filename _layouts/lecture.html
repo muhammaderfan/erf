@@ -33,11 +33,27 @@ layout: default
         </tbody>
     </table>
 
+    <ul>
+        {% assign sorted = site.lectures | sort: 'tahun_akademik' %}
+        {% for mk in sorted reversed %}
+        {% assign mk_id = mk.tahun_akademik | append: '-' | append: mk.judul | slugify %}
+        <li style="list-style-type: square">
+            {{ mk.tahun_akademik }} &mdash;
+            <a href="#{{ mk_id }}">
+                {{ mk.judul }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <br/><br/><br/>
+
     <div class="_lists">
 
         {% assign sorted = site.lectures | sort: 'tahun_akademik' %}
         {% for mk in sorted reversed %}
         {% assign mk_id = mk.tahun_akademik | append: '-' | append: mk.judul | slugify %}
+        <hr/>
         <div class="_item" id="{{ mk_id }}">
             <h4 class="_title">
                 {{ mk.judul }}
@@ -57,7 +73,14 @@ layout: default
             <div class="_content">
                 {{ mk.content }}
             </div>
+            <hr/>
+            <div class="_meta">
+                <a href="#lectures">
+                    &uarr; ke atas
+                </a>
+            </div>
         </div>
+        <br/><br/><br/>
         {% endfor %}
 
     </div>

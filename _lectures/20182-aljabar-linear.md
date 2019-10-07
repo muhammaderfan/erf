@@ -1,6 +1,6 @@
 ---
 judul: "Aljabar Linear (A/B/C)"
-tahun_akademik: 20182"
+tahun_akademik: "20182"
 tahun_akademik2: "2018 Genap"
 kontrak_kuliah: "https://docs.google.com/presentation/d/163ifOlizSzI4gSYhPOcVKIGO7bdTITlCWz1xG4tjEZs/edit?usp=sharing"
 ---

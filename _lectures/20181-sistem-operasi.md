@@ -1,6 +1,6 @@
 ---
 judul: "Sistem Operasi (A/B)"
-tahun_akademik: 20181"
+tahun_akademik: "20181"
 tahun_akademik2: "2018 Ganjil"
 kontrak_kuliah: "https://docs.google.com/presentation/d/1HSvrn6oktNH11oNDyocu5egS2zWkCdTTGkwOWRP0ubM/edit?usp=sharing"
 ---
