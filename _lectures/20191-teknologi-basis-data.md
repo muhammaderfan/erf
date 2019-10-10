@@ -55,7 +55,7 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_mahasiswa mampu memahami konsep baca/tulis data dari DBMS_
 >-	_mahasiswa mampu memahami konsep dasar indexing pada DBMS_
 
-###### Week 8 - UTS
+###### Week 8 - [UTS](https://docs.google.com/forms/d/e/1FAIpQLSesfUro95JBYxViChjAssMvoDXtM_-OaDiYRHsklvBnr5e-FQ/viewform?usp=sf_link)
 
 ###### Week 9 - Multi-Dimensional Indexing (1)
 >-	_memahami konsep point quad trees_
