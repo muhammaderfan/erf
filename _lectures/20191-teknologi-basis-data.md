@@ -57,7 +57,7 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 
 ###### Week 8 - [UTS](https://docs.google.com/forms/d/e/1FAIpQLSesfUro95JBYxViChjAssMvoDXtM_-OaDiYRHsklvBnr5e-FQ/viewform?usp=sf_link)
 
-###### Week 9 - Multi-Dimensional Indexing (1)
+###### Week 9 - [Multi-Dimensional Indexing](https://docs.google.com/presentation/d/1xnA_0NIjhZhdv7VSkTWFtG5LR1Zl1nAWZWh1YWcMuRE/edit?usp=sharing) (1)
 >-	_memahami konsep point quad trees_
 >-	_memahami operasi search pada point quad trees_
 >-	_memahami inserting data pada point quad trees_
@@ -66,7 +66,7 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_memahami operasi-operasi yang ada pada K-D-B-Trees_
 >-	_memahami splitting pada point dan region page di K-D-B Trees_
 
-###### Week 10 - Multi-Dimensional Indexing (2)
+###### Week 10 - [Multi-Dimensional Indexing](https://docs.google.com/presentation/d/1xnA_0NIjhZhdv7VSkTWFtG5LR1Zl1nAWZWh1YWcMuRE/edit?usp=sharing) (2)
 >-	_memahami konsep dasar R-Trees_
 >-	_memahami konsep searching dan inserting pada R-Trees_
 >-	_menjelaskan Bit Interleaving dan Z-Ordering pada UB-Trees_
@@ -89,16 +89,16 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_memahami konsep procedures pada linear hashing_
 
 ###### Week 13 - External Sorting (1)
->-	_mereview kembali pemahaman terkait query SQL dalam DBMS
->-	_mereview kembali pemahaman terkait algoritma sorting
->-	_memahami konsep sorting pada DBMS
->-	_memahami konsep two-way merge sorting
+>-	_mereview kembali pemahaman terkait query SQL dalam DBMS_
+>-	_mereview kembali pemahaman terkait algoritma sorting_
+>-	_memahami konsep sorting pada DBMS_
+>-	_memahami konsep two-way merge sorting_
 
 ###### Week 14 - External Sorting (2)
->-	_memahami external memory merge sorting
->-	_memahami perbandingan antara two-way dan external sorting
->-	_memahami konsep replacement pada operasi sorting
->-	_menjelaskan kaitan antara B+-trees dan sorting
+>-	_memahami external memory merge sorting_
+>-	_memahami perbandingan antara two-way dan external sorting_
+>-	_memahami konsep replacement pada operasi sorting_
+>-	_menjelaskan kaitan antara B+-trees dan sorting_
 
 ###### Week 15 - Quiz (A/B)
 >-	_mahasiswa mampu memahami konsep multi-dimensi indexing pada DBMS_
