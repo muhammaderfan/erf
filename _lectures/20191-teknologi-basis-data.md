@@ -74,7 +74,7 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_memahami range queries pada UB-Trees_
 >-	_memahami konsep spaces pada tree yang memiliki dimensi yang banyak_
 
-###### Week 11 - Hash-Based Indexing (1)
+###### Week 11 - [Hash-Based Indexing](https://docs.google.com/presentation/d/13wqWz4iFHp-cgSSQTMOlwmtmWqRqIg-p_BBSVmakZfY/edit?usp=sharing) (1)
 >-	_mereview kembali pemahaman tentang hash-based indexing_
 >-	_memahami konsep dasar dari hash-based indexing_
 >-	_menjelaskan static hash pada hash-based indexing_
@@ -82,7 +82,7 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_memahami konsep search pada hash-based indexing_
 >-	_memahami konsep insertion pada hash-based indexing_
 
-###### Week 12 - Hash-Based Indexing (2)
+###### Week 12 - [Hash-Based Indexing](https://docs.google.com/presentation/d/13wqWz4iFHp-cgSSQTMOlwmtmWqRqIg-p_BBSVmakZfY/edit?usp=sharing) (2)
 >-	_memahami procedures pada hash-based indexing_
 >-	_menjelaskan tentang linear hashing_
 >-	_memahami konsep insertion pada linear hashing_
