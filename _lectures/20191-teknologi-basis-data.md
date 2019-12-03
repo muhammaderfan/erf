@@ -100,7 +100,7 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_memahami konsep replacement pada operasi sorting_
 >-	_menjelaskan kaitan antara B+-trees dan sorting_
 
-###### Week 15 - Quiz (A/B)
+###### Week 15 - Quiz ([A](https://docs.google.com/forms/d/e/1FAIpQLSdT4CilGFYyF2yH4v7DfjeEyu_dq81303HNOyL16ybxKrxgMw/viewform?usp=sf_link)/[B](https://docs.google.com/forms/d/e/1FAIpQLSf6VvrYkEvaGAQaQRQjr144WTHgKP9wY-Ph0TZzD7hndHeOzQ/viewform?usp=sf_link))
 >-	_mahasiswa mampu memahami konsep multi-dimensi indexing pada DBMS_
 >-	_mahasiswa mampu memahami konsep sorting pada DBMS_
 
