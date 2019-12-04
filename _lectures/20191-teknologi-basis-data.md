@@ -104,4 +104,4 @@ Matakuliah Teknologi Basis Data memberikan pemahaman dan penguasaan terkait pros
 >-	_mahasiswa mampu memahami konsep multi-dimensi indexing pada DBMS_
 >-	_mahasiswa mampu memahami konsep sorting pada DBMS_
 
-###### Week 16 - UAS
+###### Week 16 - [UAS](https://docs.google.com/forms/d/e/1FAIpQLSdDHMssLslqDmnuR4Ke9BboLKVl79a0NlfoCN_AC7cKAykc8A/viewform?usp=sf_link)
