@@ -5,7 +5,7 @@ tahun_akademik2: "2019 Genap"
 kontrak_kuliah: "https://docs.google.com/presentation/d/1neKToZ356zIRZVX_tFmQWfSrqWsEpcImHKObDeDP9gw/edit?usp=sharing"
 ---
 
-1. [Matriks dan Operasinya](#)
+1. [Matriks dan Operasinya](https://docs.google.com/presentation/d/1abgcKiPUZhp0bxEFI6zUTq1JF-JuGuLB2Vbmqw0gEW4/edit?usp=sharing)
 2. [Determinan Matriks](#)
 3. [Sistem Persamaan Linear](#)
 4. Quiz #1 ([A](#))
