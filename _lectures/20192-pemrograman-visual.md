@@ -6,7 +6,7 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/1K5dEXhoCwAaa2P4YgFPcwyS
 ---
 
 1. Intro the Course
-2. [Visual Programming Vs. VPL](https://docs.google.com/presentation/d/1yLMaJqE0IM8luWxMLOf3NJkXafmXoKeZToxoJIV4pn8/edit?usp=sharing)
+2. [Visual Programming (Language)](https://docs.google.com/presentation/d/1yLMaJqE0IM8luWxMLOf3NJkXafmXoKeZToxoJIV4pn8/edit?usp=sharing)
 3. Project Report (1)
 4. Project Report (2)
 5. Project Report (3)
