@@ -11,7 +11,7 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/1K5dEXhoCwAaa2P4YgFPcwyS
 4. Report (2) ~ Init "Hello World!"
 5. Report (3) ~ Windows and Widgets
 6. ~~UTS (A/B)~~
-7. Project Report (4)
-8. Project Report (5)
-9. Project Report (6)
+7. Report (4) ~ Features
+8. Report (5) ~ Evaluation
+9. Report (6) ~ Evaluation
 10. ~~UAS~~ - Final Submission (A/B)
