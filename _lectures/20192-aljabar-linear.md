@@ -6,7 +6,7 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/1neKToZ356zIRZVX_tFmQWfS
 ---
 
 1. [Matriks dan Operasinya](https://docs.google.com/presentation/d/1abgcKiPUZhp0bxEFI6zUTq1JF-JuGuLB2Vbmqw0gEW4/edit?usp=sharing)
-2. Determinan Matriks
+2. [Determinan Matriks](https://docs.google.com/presentation/d/1SNBneJpP7pZ8-rlTXs0n11uPnyYqPEvwEJXB7PGFuR4/edit?usp=sharing)
 3. Sistem Persamaan Linear
 4. Quiz #1
 5. Vektor Bidang dan Ruang
