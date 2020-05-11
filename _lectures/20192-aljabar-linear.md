@@ -2,7 +2,7 @@
 judul: "Aljabar Linear (A)"
 tahun_akademik: "20192"
 tahun_akademik2: "2019 Genap"
-kontrak_kuliah: "https://docs.google.com/presentation/d/1neKToZ356zIRZVX_tFmQWfSrqWsEpcImHKObDeDP9gw/edit?usp=sharing"
+kontrak_kuliah: "https://docs.google.com/presentation/d/e/2PACX-1vTvRfQpO0CLiJnZFEwohEC-4L0WOMCS3nfhgQL6zfWQjLRbO86qEcw0EKwv8bUzp3UVEbGAYI1iMhFz/pub?start=false&loop=false&delayms=3000"
 ---
 
 1. [Matriks dan Operasinya](https://docs.google.com/presentation/d/e/2PACX-1vRasOfAZAG9XDFa3SjITgjxYYH8OuWb0toCETFSr-EMmIi7KavPLt732TjjeUE1AhtXRlNxQNQxjcRq/pub?start=false&loop=false&delayms=3000)
