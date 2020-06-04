@@ -56,6 +56,9 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 **Terminal**
 - [zsh](http://www.zsh.org/) - alternatif untuk bash karena memiliki banyak plugin keren
 
+**Others**
+- [lazygit](https://github.com/jesseduffield/lazygit) - `git` interaktif dari terminal
+
 ### Server
 
 **Manage**
