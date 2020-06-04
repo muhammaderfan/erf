@@ -14,7 +14,7 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/1neKToZ356zIRZVX_tFmQWfS
 7. [Ruang Vektor](https://docs.google.com/presentation/d/e/2PACX-1vSVjCQ4qjTp8BYySOQJJJA723UwEsjzHBuDlo2656LXrVI0KFvup_lidluurMw_VLjcJ4twytdorFbw/pub?start=false&loop=false&delayms=3000)
 8. Quiz #2
 9. Ruang Hasil Kali Dalam
-10. Transformasi Linear
+10. [Transformasi Linear](https://docs.google.com/presentation/d/e/2PACX-1vRZLPJOCAEiDZLrvhrdD6ZsziBqGV_Yf5GSe8xRtZ2Bp5CL-UzMbBaTD70Yuta5-4pXvLUoOoHoXJZd/pub?start=false&loop=false&delayms=3000)
 11. Ruang Eigen
-12. Latihan
+12. [Latihan](https://docs.google.com/presentation/d/e/2PACX-1vR0H4ZxAG7nxN0Bzq8O5oIRycIvoPiHJWY2FdcR1ElEF8TLYCN9qSFV5CshPSYNOHhqA0uXKlql3uly/pub?start=false&loop=false&delayms=3000)
 13. UAS
