@@ -23,6 +23,7 @@ Tool, layanan, dan perangkat yang saya gunakan sehari-hari.
 - [Material UI](http://www.material-ui.com/) - component styling material
 
 **CSS**
+- [LRS CSS](https://github.com/23Pstars/lrs-css) - penggunaan personal
 - [Zurb Foundation](https://foundation.zurb.com) - cocok untuk dashboard layouting
 - [Semantic-UI](http://semantic-ui.com/) - Full feature css framework
 - [Bootstrap](http://getbootstrap.com/) - Mainstream css framework
