@@ -12,6 +12,6 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/e/2PACX-1vQYyj_ETLGN9H8y
 5. Report (3) ~ Windows and Widgets
 6. ~~UTS (A/B)~~
 7. Report (4) ~ Features
-8. Report (5) ~ Evaluation
-9. Report (6) ~ Evaluation
-10. ~~UAS~~ - Final Submission (A/B)
+8. Report (5) ~ Evaluation ([A](https://www.youtube.com/watch?v=FnB5c2qF2sg)/[B](https://www.youtube.com/watch?v=H0lLUkoRHiY&t=53s))
+9. Report (6) ~ Evaluation ([A](https://www.youtube.com/watch?v=-pZ2Dd501cA)/[B](https://www.youtube.com/watch?v=Yeh6DKzH2T4))
+10. ~~UAS~~ - [Final Submission](https://docs.google.com/forms/d/e/1FAIpQLSdsEUMOwsedxs8Bcw8qpnozxYIxc5f5slH3pRk2hJDcZSy8WA/viewform?usp=sf_link)
