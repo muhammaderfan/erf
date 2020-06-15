@@ -17,4 +17,4 @@ kontrak_kuliah: "https://docs.google.com/presentation/d/e/2PACX-1vTvRfQpO0CLiJnZ
 10. [Transformasi Linear](https://docs.google.com/presentation/d/e/2PACX-1vRZLPJOCAEiDZLrvhrdD6ZsziBqGV_Yf5GSe8xRtZ2Bp5CL-UzMbBaTD70Yuta5-4pXvLUoOoHoXJZd/pub?start=false&loop=false&delayms=3000)
 11. Ruang Eigen
 12. [Latihan](https://docs.google.com/presentation/d/e/2PACX-1vR0H4ZxAG7nxN0Bzq8O5oIRycIvoPiHJWY2FdcR1ElEF8TLYCN9qSFV5CshPSYNOHhqA0uXKlql3uly/pub?start=false&loop=false&delayms=3000)
-13. UAS
+13. [UAS](https://docs.google.com/forms/d/e/1FAIpQLSeeizH1u0m9uu7V9pwfnqZ01NQau24wd83hQCwaANc0TN55CQ/viewform?usp=sf_link)
