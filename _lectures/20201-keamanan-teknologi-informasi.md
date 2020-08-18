@@ -2,14 +2,24 @@
 judul: "Keamanan Teknologi Informasi"
 tahun_akademik: "20201"
 tahun_akademik2: "2020 Ganjil"
-kontrak_kuliah: "https://docs.google.com/presentation/d/e/2PACX-1vQp9TiP__GDIaI_sAdzWeQETRRBcn-QF-Dq28B830fzGcgL8HjLWP4VH_42CyrF9mq1V5EI9QMn5qZs/pub?start=false&loop=false&delayms=3000"
+kontrak_kuliah: "https://docs.google.com/presentation/d/15HOx_6cBAmvGthWHPm6dv7o0lqA11Jl6lcp-EhIeWNk/edit?usp=sharing"
 ---
 
-1. Footprinting and Reconnaisance
-2. Scanning Networks
-3. Enumeration
-4. Vulnerability Analysis
-5. System Hacking
-6. Malware Threats
-7. Sniffing
-8. Social Engineering
+1. Introduction
+2. Footprinting and Reconnaisance
+3. Scanning Networks
+4. Enumeration
+5. Vulnerability Analysis
+6. System Hacking
+7. Malware Threats
+8. Sniffing
+9. Social Engineering
+10. Denial-of-Service
+11. Session Hijacking
+12. Evading IDS, Firewalls, and Honeypots
+13. Hacking Web Servers
+14. Hacking Web Applications
+15. SQL Injection
+16. Hacking Wireless Networks
+17. Hacking Mobile Platforms
+18. IoT Hacking
