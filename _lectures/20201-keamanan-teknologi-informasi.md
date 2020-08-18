@@ -1,5 +1,5 @@
 ---
-judul: "Keamanan Teknologi Informasi"
+judul: "Keamanan Teknologi Informasi (A/B)"
 tahun_akademik: "20201"
 tahun_akademik2: "2020 Ganjil"
 kontrak_kuliah: "https://docs.google.com/presentation/d/15HOx_6cBAmvGthWHPm6dv7o0lqA11Jl6lcp-EhIeWNk/edit?usp=sharing"
