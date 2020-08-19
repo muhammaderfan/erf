@@ -69,6 +69,12 @@ layout: default
                     Kontrak Kuliah
                 </a>
                 {% endif %}
+                {% if mk.link_moodle %}
+                &nbsp;&nbsp;&mdash;&nbsp;
+                <a href="{{ mk.link_moodle }}" target="_blank">
+                    Materi
+                </a>
+                {% endif %}
             </div>
             <div class="_content">
                 {{ mk.content }}

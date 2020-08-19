@@ -2,7 +2,7 @@
 judul: "Pemrograman Web Lanjut"
 tahun_akademik: "20201"
 tahun_akademik2: "2020 Ganjil"
-kontrak_kuliah: "https://berajah.if.unram.ac.id/mod/forum/view.php?id=3406"
+link_moodle: "https://berajah.if.unram.ac.id/mod/forum/view.php?id=3406"
 ---
 
 1. Introduction
