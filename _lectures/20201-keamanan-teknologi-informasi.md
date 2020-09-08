@@ -2,7 +2,7 @@
 judul: "Keamanan Teknologi Informasi (A/B)"
 tahun_akademik: "20201"
 tahun_akademik2: "2020 Ganjil"
-link_moodle: "https://berajah.if.unram.ac.id/mod/forum/view.php?id=3407"
+link_moodle: "https://berajah.if.unram.ac.id/course/view.php?id=149"
 ---
 
 1. Introduction
