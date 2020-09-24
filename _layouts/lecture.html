@@ -8,30 +8,68 @@ layout: default
 
     <table>
         <tbody>
-        <tr>
-            <td class="left">
-                <p class="name">
-                    <i class="icon-vcard"></i> {{ page.me_name }}
-                </p>
-                <p class="whatsapp">
-                    <i class="icon-whatsapp"></i>
-                    <a href="https://wa.me/{{ page.me_whatsapp2 }}" target="_blank">{{ page.me_whatsapp }}</a>
-                </p>
-                <p class="mail">
-                    <i class="icon-mail"></i>
-                    <a href="mailto:{{ page.me_email }}" target="_blank">{{ page.me_email }}</a>
-                </p>
-                <p class="url">
-                    <i class="icon-link"></i>
-                    <a href="{{ page.me_web }}" target="_blank">{{ page.me_web }}</a>
-                </p>
-            </td>
-            <td class="right">
-                <img src="{{ page.me_qr }}" alt="{{ page.me_name }}"/>
-            </td>
-        </tr>
+            <tr>
+                <td class="left">
+                    <p class="name">
+                        <i class="icon-vcard"></i> {{ page.me_name }}
+                    </p>
+                    <p class="whatsapp">
+                        <i class="icon-whatsapp"></i>
+                        <a href="https://t.me/{{ page.me_telegram }}" target="_blank">{{ page.me_telegram }}</a>
+                    </p>
+                    <p class="mail">
+                        <i class="icon-mail"></i>
+                        <a href="mailto:{{ page.me_email }}" target="_blank">{{ page.me_email }}</a>
+                    </p>
+                    <p class="url">
+                        <i class="icon-link"></i>
+                        <a href="{{ page.me_web }}" target="_blank">{{ page.me_web }}</a>
+                    </p>
+                </td>
+                <td class="right">
+                    <img src="{{ page.me_qr }}" alt="{{ page.me_name }}" />
+                </td>
+            </tr>
         </tbody>
     </table>
+
+    <div>
+
+        <style>
+            .__lab2 {
+                text-align: center;
+                font-size: 24px;
+                border: 10px solid black;
+                padding: 1rem 0 1rem;
+                min-height: 3em;
+                margin: 2rem 0 2rem;
+                resize: both;
+                background: #ffd73e33;
+                border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232d3561' /%3E%3Cstop offset='25%25' stop-color='%23c05c7e' /%3E%3Cstop offset='50%25' stop-color='%23f3826f' /%3E%3Cstop offset='100%25' stop-color='%23ffb961' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+            }
+        </style>
+
+        <div class="__lab2">
+            <a href="#" onclick="_auth()">
+                🔐 Lab II - Komunikasi Data & Sistem Tertanam
+            </a>
+            <br />
+            👩🏻‍💻&nbsp;👩🏻‍💻&nbsp;👩🏻‍💻&nbsp;👩🏻‍💻&nbsp;👩🏻‍💻&nbsp;👩🏻‍💻
+        </div>
+
+        <script>
+            function _auth() {
+                var __secret_slide = "/assets/presentations/introducing-lab-ii-if-unram/";
+                var __password = 'lab2keren';
+                var __password_user = prompt('Masukkan password akses:');
+
+                if (__password === __password_user)
+                    window.open(__secret_slide, '_blank');
+                else alert('Password salah!');
+            }
+        </script>
+
+    </div>
 
     <ul>
         {% assign sorted = site.lectures | sort: 'tahun_akademik' %}
@@ -46,14 +84,14 @@ layout: default
         {% endfor %}
     </ul>
 
-    <br/><br/><br/>
+    <br /><br /><br />
 
     <div class="_lists">
 
         {% assign sorted = site.lectures | sort: 'tahun_akademik' %}
         {% for mk in sorted reversed %}
         {% assign mk_id = mk.tahun_akademik | append: '-' | append: mk.judul | slugify %}
-        <hr/>
+        <hr />
         <div class="_item" id="{{ mk_id }}">
             <h4 class="_title">
                 {{ mk.judul }}
@@ -79,14 +117,14 @@ layout: default
             <div class="_content">
                 {{ mk.content }}
             </div>
-            <hr/>
+            <hr />
             <div class="_meta">
                 <a href="#lectures">
                     &uarr; ke atas
                 </a>
             </div>
         </div>
-        <br/><br/><br/>
+        <br /><br /><br />
         {% endfor %}
 
     </div>
