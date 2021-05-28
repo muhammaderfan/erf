@@ -1,0 +1,52 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "68eb56470b836f19335231578515153e",
+      "css": "address-card-o",
+      "code": 62140,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "117d7f4e196f826847929c6550734615",
+      "css": "globe",
+      "code": 61464,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "0ddd3e8201ccc7d41f7b7c9d27eca6c1",
+      "css": "link",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d6944e1d9af302093d43b299bbecbbbe",
+      "css": "hash",
+      "code": 59394,
+      "src": "iconic"
+    },
+    {
+      "uid": "9d3e9faf68fd4e12def853f0d4e1173b",
+      "css": "whatsapp",
+      "code": 62002,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "531359183f9fedb14b23666f1308591f",
+      "css": "telegram",
+      "code": 62150,
+      "src": "fontawesome"
+    }
+  ]
+}
