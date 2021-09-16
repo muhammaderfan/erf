@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div id="courses">
+
+    <h2>Courses</h2>
+
+    <br />
+
+    <ul>
+        {% assign sorted = site.courses | sort: 'waktu2' %}
+        {% for item in sorted reversed %}
+        {% assign item_id = item.waktu2 | append: '-' | append: item.judul | slugify %}
+        <li style="list-style-type: square">
+            <a href="#{{ item_id }}">
+                {{ item.judul }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <br /><br />
+
+    <div class="_lists">
+
+        {% assign sorted = site.courses | sort: 'waktu2' %}
+        {% for item in sorted reversed %}
+        {% assign item_id = item.waktu2 | append: '-' | append: item.judul | slugify %}
+        <hr />
+        <div class="_item" id="{{ item_id }}">
+            <h4 class="_title">
+                {{ item.judul }}
+                <a class="mk_id" href="#{{ item_id }}">
+                    <i class="icon-hash"></i>
+                </a>
+            </h4>
+            <div class="_meta">
+                {{ item.waktu }}
+                &nbsp;&nbsp;&mdash;&nbsp;
+                {{ item.instansi }}
+            </div>
+            <div class="_content">
+                {{ item.content }}
+            </div>
+            <hr />
+            <div class="_meta">
+                <a href="#courses">
+                    &uarr; ke atas
+                </a>
+            </div>
+        </div>
+        <br /><br /><br />
+        {% endfor %}
+
+    </div>
+
+</div>
