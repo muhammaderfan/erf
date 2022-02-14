@@ -1,8 +1,8 @@
 ---
 judul: "Pemrograman Visual (A/B)"
-tahun_akademik: "20202"
-tahun_akademik2: "2020 Genap"
-link_moodle: "https://berajah.if.unram.ac.id/course/view.php?id=191"
+tahun_akademik: "20212"
+tahun_akademik2: "2021 Genap"
+link_moodle: "https://berajah.if.unram.ac.id/course/view.php?id=234"
 ---
 
 1. Intro the Course
