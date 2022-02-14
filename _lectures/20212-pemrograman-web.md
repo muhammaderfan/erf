@@ -1,5 +1,5 @@
 ---
-judul: "Pemrograman Web Lanjut (C)"
+judul: "Pemrograman Web (C)"
 tahun_akademik: "20212"
 tahun_akademik2: "2021 Genap"
 link_moodle: "#"
