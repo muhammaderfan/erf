@@ -4,6 +4,6 @@ me_name: Muhammad Erfan
 me_whatsapp: "6282325653225"
 me_telegram: "erfun1234"
 me_email: muhammaderfan@unram.ac.id
-me_web: https://zaf.web.id
+me_web: https://muhammaderfan.github.io/erf.github.io/
 me_qr: assets/images/erf_qr_upload.png
 ---
