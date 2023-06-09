@@ -4,7 +4,7 @@ tahun_akademik: "20192"
 tahun_akademik2: "2019 Genap"
 ---
 
-1. Alam Pikiran Manusia dan Perkembangannya
+1. [Alam Pikiran Manusia dan Perkembangannya](https://www.overleaf.com/read/pyngrzkqhhzz)
 2. Perkembangan dan Pengembangan IPA
 3. Bumi dan Alam Semesta
 4. Keanekaragaman Makhluk Hidup dan Persebarannya
