@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="researches">
+
+  <h2>My Researches</h2>
+
+  <div class="_lists">
+
+    {% assign sorted = site.researches | sort: 'date' %}
+    {% for slide in sorted reversed %}
+      <div class="_item">
+        <h4 class="_title">
+          <a href="{{ slide.slide_url }}">
+            {{ slide.title }}
+          </a>
+        </h4>
+        <div class="_meta">{{ slide.date | date: "%b %-d, %Y" }}</div>
+        <div class="_description">{{ slide.description }}</div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+</div>
