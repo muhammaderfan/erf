@@ -1,3 +1,3 @@
 ---
-layout: presentation
+layout: researches
 ---
