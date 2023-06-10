@@ -1,3 +1,3 @@
 ---
-layout: research
+layout: demo
 ---
