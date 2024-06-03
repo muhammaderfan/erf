@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div id="demos">
+
+  <h2>Researches</h2>
+
+  <div class="_lists">
+
+    {% assign sorted = site.demos | sort: 'date' %}
+    {% for demo in sorted reversed %}
+      <div class="_item">
+        <h4 class="_title">
+          <a href="{{ demo.demo_url }}">
+            {{ demo.title }}
+          </a>
+        </h4>
+        <div class="_meta">{{ demo.date | date: "%b %-d, %Y" }}</div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+</div>
